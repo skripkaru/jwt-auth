@@ -1,0 +1,11 @@
+.user-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color .3s ease-in-out;
+  
+  &:hover {
+    background-color: #f8f9fa;
+  }
+}
